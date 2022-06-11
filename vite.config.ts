@@ -14,5 +14,8 @@ export default defineConfig({
             '@/': './src/'
         }
     },
-    base: '/erax.db-website/'
+    optimizeDeps: {
+        include: ['vue', 'vue-router'],
+        exclude: ['vue-demi']
+    }
 });
