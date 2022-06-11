@@ -2,83 +2,83 @@
     "general": [
         {
             "name": "Welcome",
-            "to": "/docs/general/Welcome"
+            "to": "/documentation/general/Welcome"
         }
     ],
     "classes": [
         {
             "name": "BsonDatabase",
-            "to": "/docs/classes/BsonDatabase"
+            "to": "/documentation/classes/BsonDatabase"
         },
         {
             "name": "MongoDatabase",
-            "to": "/docs/classes/MongoDatabase"
+            "to": "/documentation/classes/MongoDatabase"
         },
         {
             "name": "SqliteDatabase",
-            "to": "/docs/classes/SqliteDatabase"
+            "to": "/documentation/classes/SqliteDatabase"
         },
         {
             "name": "JsonDatabase",
-            "to": "/docs/classes/JsonDatabase"
+            "to": "/documentation/classes/JsonDatabase"
         },
         {
             "name": "BaseDatabase",
-            "to": "/docs/classes/BaseDatabase"
+            "to": "/documentation/classes/BaseDatabase"
         },
         {
             "name": "DatabaseError",
-            "to": "/docs/classes/DatabaseError"
+            "to": "/documentation/classes/DatabaseError"
         },
         {
             "name": "Utils",
-            "to": "/docs/classes/Utils"
+            "to": "/documentation/classes/Utils"
         }
     ],
     "typedefs": [
         {
             "name": "BsonDatabaseOptions",
-            "to": "/docs/typedefs/BsonDatabaseOptions"
+            "to": "/documentation/typedefs/BsonDatabaseOptions"
         },
         {
             "name": "MongoDatabaseOptions",
-            "to": "/docs/typedefs/MongoDatabaseOptions"
+            "to": "/documentation/typedefs/MongoDatabaseOptions"
         },
         {
             "name": "SqliteDatabaseOptions",
-            "to": "/docs/typedefs/SqliteDatabaseOptions"
+            "to": "/documentation/typedefs/SqliteDatabaseOptions"
         },
         {
             "name": "JsonDatabaseOptions",
-            "to": "/docs/typedefs/JsonDatabaseOptions"
+            "to": "/documentation/typedefs/JsonDatabaseOptions"
         },
         {
             "name": "BaseFetchOptions",
-            "to": "/docs/typedefs/BaseFetchOptions"
+            "to": "/documentation/typedefs/BaseFetchOptions"
         },
         {
             "name": "BasePushOptions",
-            "to": "/docs/typedefs/BasePushOptions"
+            "to": "/documentation/typedefs/BasePushOptions"
         },
         {
             "name": "BaseFindAndDeleteOptions",
-            "to": "/docs/typedefs/BaseFindAndDeleteOptions"
+            "to": "/documentation/typedefs/BaseFindAndDeleteOptions"
         },
         {
             "name": "BaseMathOptions",
-            "to": "/docs/typedefs/BaseMathOptions"
+            "to": "/documentation/typedefs/BaseMathOptions"
         },
         {
             "name": "BaseBackupOptions",
-            "to": "/docs/typedefs/BaseBackupOptions"
+            "to": "/documentation/typedefs/BaseBackupOptions"
         },
         {
             "name": "Schema",
-            "to": "/docs/typedefs/Schema"
+            "to": "/documentation/typedefs/Schema"
         },
         {
             "name": "Operators",
-            "to": "/docs/typedefs/Operators"
+            "to": "/documentation/typedefs/Operators"
         }
     ]
 }
