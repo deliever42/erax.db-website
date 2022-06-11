@@ -19,7 +19,7 @@ const router = createRouter({
         {
             name: '404',
             component: NotFound,
-            path: '/:catchAll(.*)'
+            path: '*'
         }
     ]
 });

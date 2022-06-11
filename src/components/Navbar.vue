@@ -2,16 +2,9 @@
 import { RouterLink } from 'vue-router';
 </script>
 
-<script lang="ts">
-import Vue from 'vue';
-export default {
-    name: 'Navbar'
-};
-</script>
-
 <template>
     <nav class="navbar">
-        <a href="index.html" class="nav-brand">Erax.DB</a>
+        <RouterLink to="/" class="nav-brand">Erax.DB</RouterLink>
         <div class="nav-items">
             <RouterLink to="/" class="nav-item">Home</RouterLink>
             <RouterLink to="/docs" class="nav-item">Documentation</RouterLink>

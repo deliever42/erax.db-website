@@ -1,9 +1,3 @@
-<script lang="ts">
-export default {
-    name: 'Footer'
-};
-</script>
-
 <template>
     <br />
     <br />
