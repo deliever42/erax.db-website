@@ -1,0 +1,84 @@
+{
+    "general": [
+        {
+            "name": "Welcome",
+            "to": "/docs/general/Welcome"
+        }
+    ],
+    "classes": [
+        {
+            "name": "BsonDatabase",
+            "to": "/docs/classes/BsonDatabase"
+        },
+        {
+            "name": "MongoDatabase",
+            "to": "/docs/classes/MongoDatabase"
+        },
+        {
+            "name": "SqliteDatabase",
+            "to": "/docs/classes/SqliteDatabase"
+        },
+        {
+            "name": "JsonDatabase",
+            "to": "/docs/classes/JsonDatabase"
+        },
+        {
+            "name": "BaseDatabase",
+            "to": "/docs/classes/BaseDatabase"
+        },
+        {
+            "name": "DatabaseError",
+            "to": "/docs/classes/DatabaseError"
+        },
+        {
+            "name": "Utils",
+            "to": "/docs/classes/Utils"
+        }
+    ],
+    "typedefs": [
+        {
+            "name": "BsonDatabaseOptions",
+            "to": "/docs/typedefs/BsonDatabaseOptions"
+        },
+        {
+            "name": "MongoDatabaseOptions",
+            "to": "/docs/typedefs/MongoDatabaseOptions"
+        },
+        {
+            "name": "SqliteDatabaseOptions",
+            "to": "/docs/typedefs/SqliteDatabaseOptions"
+        },
+        {
+            "name": "JsonDatabaseOptions",
+            "to": "/docs/typedefs/JsonDatabaseOptions"
+        },
+        {
+            "name": "BaseFetchOptions",
+            "to": "/docs/typedefs/BaseFetchOptions"
+        },
+        {
+            "name": "BasePushOptions",
+            "to": "/docs/typedefs/BasePushOptions"
+        },
+        {
+            "name": "BaseFindAndDeleteOptions",
+            "to": "/docs/typedefs/BaseFindAndDeleteOptions"
+        },
+        {
+            "name": "BaseMathOptions",
+            "to": "/docs/typedefs/BaseMathOptions"
+        },
+        {
+            "name": "BaseBackupOptions",
+            "to": "/docs/typedefs/BaseBackupOptions"
+        },
+        {
+            "name": "Schema",
+            "to": "/docs/typedefs/Schema"
+        },
+        {
+            "name": "Operators",
+            "to": "/docs/typedefs/Operators"
+        }
+    ]
+}
