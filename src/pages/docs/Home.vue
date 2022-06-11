@@ -121,7 +121,7 @@ let invalidPage: boolean = false;
 const loadDoc = (p: string, c: string) => {
     category = c;
     page = p;
-    router.push(`/docs/${c}/${p}`);
+    router.push(`/documentation/${c}/${p}`);
     invalidPage = !(docs as any)[c] || !(docs as any)[c].find((doc: any) => doc.name === p);
     if (!invalidPage && (DocComponents as any)[p])
         docComponent = shallowRef((DocComponents as any)[p]);

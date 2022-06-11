@@ -7,7 +7,7 @@ import { RouterLink } from 'vue-router';
         <RouterLink to="/" class="nav-brand">Erax.DB</RouterLink>
         <div class="nav-items">
             <RouterLink to="/" class="nav-item">Home</RouterLink>
-            <RouterLink to="/docs" class="nav-item">Documentation</RouterLink>
+            <RouterLink to="/documentation" class="nav-item">Documentation</RouterLink>
             <a href="https://github.com/deliever42/erax.db" class="nav-item" target="_blank"
                 >GitHub</a
             >

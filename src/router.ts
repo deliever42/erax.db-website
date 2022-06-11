@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '@/pages/Home.vue';
-import InvalidPage from '@/pages/InvalidPage.vue';
+import NotFound from '@/pages/NotFound.vue';
 import DocsHome from '@/pages/docs/Home.vue';
 
 const router = createRouter({
@@ -12,14 +12,14 @@ const router = createRouter({
             path: '/'
         },
         {
-            name: 'Docs',
+            name: 'Documentation',
             component: DocsHome,
-            path: `/docs/:category?/:page?`
+            path: `/documentation/:category?/:page?`
         },
         {
-            name: '404',
+            name: 'NotFound',
             component: NotFound,
-            path: '*'
+            path: '/:catchAll(.*)'
         }
     ]
 });
