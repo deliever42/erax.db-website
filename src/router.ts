@@ -9,17 +9,17 @@ const router = createRouter({
         {
             name: 'Home',
             component: Home,
-            path: '/'
+            path: '/erax.db-website/'
         },
         {
             name: 'Docs',
             component: DocsHome,
-            path: `/docs/:category?/:page?`
+            path: `/erax.db-website/docs/:category?/:page?`
         },
         {
             name: '404',
             component: NotFound,
-            path: '/:catchAll(.*)'
+            path: '/erax.db-website/:catchAll(.*)'
         }
     ]
 });

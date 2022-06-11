@@ -4,8 +4,8 @@
     "description": "Website for Erax.DB",
     "scripts": {
         "dev": "vite",
-        "build": "vue-tsc --noEmit && vite build",
-        "build-watch": "vue-tsc --noEmit && vite build --watch",
+        "build": "vue-tsc --noEmit && copy-files-from-to && vite build",
+        "build-watch": "vue-tsc --noEmit && copy-files-from-to && vite build --watch",
         "start": "vite preview --port 80"
     },
     "repository": {
@@ -14,6 +14,7 @@
     },
     "dependencies": {
         "@highlightjs/vue-plugin": "^2.1.0",
+        "copy-files-from-to": "^3.2.2",
         "jquery": "^3.6.0",
         "vue": "^3.2.33",
         "vue-router": "^4.0.14"
@@ -29,5 +30,15 @@
         "vue-tsc": "^0.34.7"
     },
     "author": "deliever42",
-    "license": "GPL-3.0"
+    "license": "GPL-3.0",
+    "copyFiles": [
+        {
+            "from": "CNAME",
+            "to": "dist/CNAME"
+        },
+        {
+            "from": "ads.txt",
+            "to": "dist/ads.txt"
+        }
+    ]
 }
