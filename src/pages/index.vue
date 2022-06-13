@@ -34,7 +34,7 @@
         <ul style="list-style: inside" class="muted">
             <li>Speedy and efficient</li>
             <li style="margin-top: 0.5rem">Feature-rich</li>
-            <li style="margin-top: 0.5rem">It can be easily personalized.</li>
+            <li style="margin-top: 0.5rem">Customizable</li>
         </ul>
     </div>
 </template>
