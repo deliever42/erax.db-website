@@ -14,7 +14,8 @@ const router = createRouter({
         {
             name: 'Documentation',
             component: DocsHome,
-            path: `/documentation/:category?/:page?`
+            path: `/documentation/:category?/:page?`,
+            alias: `/docs`
         },
         {
             name: 'NotFound',
