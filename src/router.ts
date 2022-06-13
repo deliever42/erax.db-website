@@ -1,28 +1,9 @@
-import { createRouter, createWebHistory } from 'vue-router';
-import Home from '@/pages/Home.vue';
-import NotFound from '@/pages/NotFound.vue';
-import DocsHome from '@/pages/docs/Home.vue';
+import { createRouter, createWebHashHistory } from 'vue-router';
+import routes from '~pages';
 
 const router = createRouter({
-    history: createWebHistory(),
-    routes: [
-        {
-            name: 'Home',
-            component: Home,
-            path: '/'
-        },
-        {
-            name: 'Documentation',
-            component: DocsHome,
-            path: `/documentation/:category?/:page?`,
-            alias: `/docs`
-        },
-        {
-            name: 'NotFound',
-            component: NotFound,
-            path: '/:catchAll(.*)'
-        }
-    ]
+    history: createWebHashHistory(),
+    routes
 });
 
 export default router;

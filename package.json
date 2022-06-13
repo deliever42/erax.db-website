@@ -16,6 +16,7 @@
         "@highlightjs/vue-plugin": "^2.1.0",
         "copy-files-from-to": "^3.2.2",
         "jquery": "^3.6.0",
+        "vite-plugin-pages": "^0.24.0",
         "vue": "^3.2.33",
         "vue-router": "^4.0.14"
     },

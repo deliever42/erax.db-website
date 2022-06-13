@@ -3,7 +3,7 @@
         <div class="container text-center">
             <br />
             <br />
-            <img src="@/static/logo.png" alt="Discord Neura Logo" draggable="false" />
+            <img src="@/static/logo.png" alt="EraxDB Logo" draggable="false" />
             <br />
             <br />
             <span style="background-color: #4752c4; border-radius: 8px; padding: 20px; color: white"
@@ -41,7 +41,6 @@
 
 <script lang="ts">
 export default {
-    name: 'Home',
     methods: {
         async copy(str: string) {
             await navigator.clipboard.writeText(str);

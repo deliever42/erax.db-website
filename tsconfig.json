@@ -1,17 +1,21 @@
 {
-    "extends": "@vue/tsconfig/tsconfig.web.json",
-    "include": ["src/**/*", "src/**/*.vue"],
     "compilerOptions": {
         "baseUrl": ".",
+        "target": "ES2019",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "strict": true,
+        "alwaysStrict": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "lib": ["ESNext", "DOM"],
         "paths": {
+            "~/*": ["./src/*"],
             "@/*": ["./src/*"]
         },
-        "lib": ["ESNext", "DOM"]
+        "types": ["vite/client", "vite-plugin-pages/client"],
+        "jsx": "preserve"
     },
-
-    "references": [
-        {
-            "path": "./tsconfig.vite-config.json"
-        }
-    ]
+    "include": ["src/**/*"]
 }

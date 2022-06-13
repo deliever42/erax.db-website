@@ -1,9 +1,17 @@
 import { defineConfig } from 'vite';
 import Vue from '@vitejs/plugin-vue';
+import Pages from 'vite-plugin-pages';
+import { resolve } from 'path';
 
 export default defineConfig({
-    plugins: [Vue()],
-    root: './src',
+    plugins: [
+        Vue(),
+        Pages({
+            pagesDir: [{ dir: resolve(__dirname, 'src', 'pages'), baseRoute: '/' }],
+            extensions: ['vue']
+        })
+    ],
+    root: './src/',
     publicDir: './src/static',
     build: {
         assetsDir: '_veiversa_studio',
@@ -13,9 +21,5 @@ export default defineConfig({
         alias: {
             '@/': './src/'
         }
-    },
-    optimizeDeps: {
-        include: ['vue'],
-        exclude: ['vue-router']
     }
 });
