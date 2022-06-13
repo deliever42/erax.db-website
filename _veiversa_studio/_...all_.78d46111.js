@@ -1,1 +1,0 @@
-import{_ as t,o as s,c as a,F as n,a as e}from"./index.607a68d1.js";const _={},c=e("br",null,null,-1),o=e("h1",{class:"text-center muted"},"Oh no! This page doesn't exist.",-1);function r(l,d){return s(),a(n,null,[c,o],64)}var u=t(_,[["render",r]]);export{u as default};
