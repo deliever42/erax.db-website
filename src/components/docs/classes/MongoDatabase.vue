@@ -1143,24 +1143,77 @@
                         </td>
                         <td><i class="fa-solid fa-xmark"></i></td>
                         <td><i class="fa-solid fa-xmark"></i></td>
-                        <td>The function to reduce all data</td>
+                        <td>The function to find datas</td>
                     </tr>
                     <tr>
                         <td>options</td>
                         <td>
-                            <a
-                                :href="getDocRoute('typedefs', 'BaseFindAndDeleteOptions')"
-                                target="_blank"
-                                >BaseFindAndDeleteOptions</a
-                            >
-                            &
                             <a :href="getDocRoute('typedefs', 'BaseFetchOptions')" target="_blank"
                                 >BaseFetchOptions</a
                             >
                         </td>
                         <td><i class="fa-solid fa-check"></i></td>
-                        <td>{ maxDeletedSize: 0 }</td>
-                        <td>Options of the find and delete</td>
+                        <td>{}</td>
+                        <td>Options of the get all data</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br />
+        </div>
+        <p class="muted">
+            Returns:
+            <a :href="DocHelper.number" target="_blank">Promise&#60;number&#62;</a>
+        </p>
+    </div>
+    <br />
+    <hr />
+    <br />
+    <p class="property">.findAndModify(fn, newValue, options)</p>
+
+    <div class="property-data">
+        <p class="muted">Finds and modifies data</p>
+        <br />
+        <div style="overflow-x: auto">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Parameter</th>
+                        <th>Type</th>
+                        <th>Optional</th>
+                        <th>Default</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>fn</td>
+                        <td>
+                            (key: <a :href="DocHelper.string" target="_blank">string</a>, value: V)
+                            =>
+                            <a :href="DocHelper.boolean" target="_blank">boolean</a>
+                        </td>
+                        <td><i class="fa-solid fa-xmark"></i></td>
+                        <td><i class="fa-solid fa-xmark"></i></td>
+                        <td>The function to find datas</td>
+                    </tr>
+                    <tr>
+                        <td>newValue</td>
+                        <td>V</td>
+                        <td><i class="fa-solid fa-xmark"></i></td>
+                        <td><i class="fa-solid fa-xmark"></i></td>
+                        <td>The new value for finded datas</td>
+                    </tr>
+                    <tr>
+                        <td>options</td>
+                        <td>
+                            <a :href="getDocRoute('typedefs', 'BaseFetchOptions')" target="_blank"
+                                >BaseFetchOptions</a
+                            >
+                        </td>
+                        <td><i class="fa-solid fa-check"></i></td>
+                        <td>{}</td>
+                        <td>Options of the get all data</td>
                     </tr>
                 </tbody>
             </table>

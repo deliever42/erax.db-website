@@ -14,7 +14,6 @@ import SqliteDatabaseOptions from '@/components/docs/typedefs/SqliteDatabaseOpti
 import JsonDatabaseOptions from '@/components/docs/typedefs/JsonDatabaseOptions.vue';
 import BaseFetchOptions from '@/components/docs/typedefs/BaseFetchOptions.vue';
 import BasePushOptions from '@/components/docs/typedefs/BasePushOptions.vue';
-import BaseFindAndDeleteOptions from '@/components/docs/typedefs/BaseFindAndDeleteOptions.vue';
 import BaseMathOptions from '@/components/docs/typedefs/BaseMathOptions.vue';
 import BaseBackupOptions from '@/components/docs/typedefs/BaseBackupOptions.vue';
 import Schema from '@/components/docs/typedefs/Schema.vue';
@@ -39,7 +38,6 @@ export default {
     JsonDatabaseOptions,
     BaseFetchOptions,
     BasePushOptions,
-    BaseFindAndDeleteOptions,
     BaseMathOptions,
     BaseBackupOptions,
     Schema,

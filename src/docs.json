@@ -61,10 +61,6 @@
             "to": "/documentation/typedefs/BasePushOptions"
         },
         {
-            "name": "BaseFindAndDeleteOptions",
-            "to": "/documentation/typedefs/BaseFindAndDeleteOptions"
-        },
-        {
             "name": "BaseMathOptions",
             "to": "/documentation/typedefs/BaseMathOptions"
         },
